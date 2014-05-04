@@ -10,6 +10,7 @@
 
 @implementation UIView (Shake)
 
+
 - (void)shake:(int)times withDelta:(CGFloat)delta
 {
 	[self _shake:times direction:1 currentTimes:0 withDelta:delta andSpeed:0.03 shakeDirection:ShakeDirectionHorizontal];
